@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Planer Semanal</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="estilo.css" /> 
+    
+  </head>
+  <body class="bg-celeste">
+    <div id="app">
+    <h1 v-once class="m-1 p-4 d-flex justify-content-center">{{titulo}}</h1>
+  <navegador></navegador>
+    
+
+<main>
+  
+
+    <div class="container p-2">
+      <div class="row">
+        <div class="d-flex justify-content-center col-lg-2 altura100">
+          <div class="bg-marron p-2 m-1 rounded">
+            <h2>Lunes</h2>
+            <formulario></formulario>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center col-lg-2 altura100">
+          <div class="bg-marron p-2 m-1 rounded">
+            <h2>Martes</h2>
+            <formulario></formulario>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center col-lg-2 altura100">
+          <div class="bg-marron p-2 m-1 rounded">
+            <h2>Miercoles</h2>
+            <formulario></formulario>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center col-lg-2 altura100">
+          <div class="bg-marron p-2 m-1 rounded">
+            <h2>Jueves</h2>
+            <formulario></formulario>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center col-lg-2 altura100">
+          <div class="bg-marron p-2 m-1 rounded">
+            <h2 >Viernes</h2>
+            <formulario></formulario>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center col-lg-2">
+          <div class="bg-marron p-2 m-1 rounded">
+            <div class="container ">
+              <div class="row">
+                <div class="altura50 ">
+                <h2>Sabado</h2>
+                <formulario></formulario>
+              </div>
+              <div class="altura50">
+                <h2>Domingo</h2><formulario></formulario>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+   
+   
+    </div>
+    <alumnos-footer></alumnos-footer>
+</main></div>
+
+   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+    <script src="jv.js"></script>
+    
+
+  </body>
+</html>

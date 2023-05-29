@@ -1,0 +1,28 @@
+.altura100 {
+    height: 100%;
+}
+
+.altura50 {
+    height: 50%;
+}
+
+.bg-celeste{
+    background-color: #cdfff6;
+}
+
+.border-lila{
+    border-bottom: solid #b3cfff;
+   
+}
+
+.bg-marron{
+    background-color: #fffee5;
+}
+
+.bg-marronO{
+    background-color: #b3b06d;
+}
+
+.border-tabla{
+    border: solid #b3cfff;
+}
